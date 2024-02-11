@@ -1,0 +1,38 @@
+baseurl = "http://www.novusoh.xyz"
+title = "NovusOh"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+[markup.highlight]
+style = "xcode-dark"
+
+[params]
+  author = "NovusOh"
+  info = "Tech enthusiast/small dev, PC gamer, & makes barely any videos. I lazily made this site in Hugo."
+  description = "A dumb website i lazily made in Hugo"
+  keywords = "youtuber,developer,gamer,novusoh,novus,novusthedev"
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = true
+
+# Social links
+[[params.social]]
+  name = "YouTube"
+  icon = "fa-brands fa-youtube fa-2x"
+  weight = 1
+  url = "https://www.youtube.com/@novusoh"
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 2
+  url = "https://github.com/novusthedev/"
+[[params.social]]
+  name = "Discord Server"
+  icon = "fa-brands fa-discord fa-2x"
+  weight = 3
+  url = "https://discord.gg/VCvaCy2m4f"
